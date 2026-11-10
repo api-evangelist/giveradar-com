@@ -1,4 +1,4 @@
-# giveradar-com
+# GiveRadar
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,128 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-giveradar-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://giveradar.com/
+GiveRadar is a free global charity search engine and data platform that aggregates information on over 7.9 million nonprofit organizations across more than 100 countries. It pulls data from official government registries, providing financials, leadership details, integrity assessments, and red flag detection to help donors and researchers evaluate charities. The service offers a public API for programmatic access to this dataset, enabling integration into apps, research tools, and due‑diligence workflows.
+
+**Areas:** Charity · Data · API · Nonprofit · Global
+
+## GiveRadar on APIs.io
+
+Everything profiled for GiveRadar is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/giveradar-com/](https://apis.io/providers/giveradar-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [GiveRadar Charities API](https://apis.io/apis/giveradar-com/giveradar-com-charities-api/) — Detailed charity data
+- [GiveRadar Platform API](https://apis.io/apis/giveradar-com/giveradar-com-platform-api/) — Platform-wide statistics
+- [GiveRadar Reviews API](https://apis.io/apis/giveradar-com/giveradar-com-reviews-api/) — User reviews
+- [GiveRadar Search API](https://apis.io/apis/giveradar-com/giveradar-com-search-api/) — Search and discover charities
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [GiveRadar Agentic Access](https://apis.io/agentic-access/giveradar-com/giveradar-com-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [CharityDetail](https://apis.io/schemas/giveradar-com/giveradar-com-charity-detail/)
+- [CharitySummary](https://apis.io/schemas/giveradar-com/giveradar-com-charity-summary/)
+- [Filing](https://apis.io/schemas/giveradar-com/giveradar-com-filing/)
+- [NewsArticle](https://apis.io/schemas/giveradar-com/giveradar-com-news-article/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Giveradar Com Context](https://apis.io/jsonld/giveradar-com/giveradar-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [GiveRadar API Rules](https://apis.io/rules/giveradar-com/giveradar-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [GiveRadar Authentication](https://apis.io/security/giveradar-com/giveradar-com-authentication/)
+- [GiveRadar Domain Security](https://apis.io/security/giveradar-com/giveradar-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [GiveRadar Plans Pricing](https://apis.io/plans/giveradar-com/giveradar-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://giveradar.com/)
+- [Documentation](https://giveradar.com/api/docs/)
+- [API reference](https://giveradar.com/api/openapi.yaml)
+- [Blog](https://giveradar.com/blog/)
+- [Terms of service](https://giveradar.com/terms/)
+- [Privacy policy](https://giveradar.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 53.1** — developing · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 61.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 62.6 |
+
+**Agent readiness 35.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | documented (partial credit) |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/giveradar-com/](https://apis.io/providers/giveradar-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for GiveRadar: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/giveradar-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
